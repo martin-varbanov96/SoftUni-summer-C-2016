@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1468788295 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\main.cpp
+	<iostream>
+	"Person.h"
+
+1468788156 c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\person.h
+	<string>
+	<stddef.h>
+
+1468788351 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\person.cpp
+	"Person.h"
+	<iostream>
+
