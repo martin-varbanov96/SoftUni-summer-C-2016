@@ -1,13 +1,42 @@
 # depslib dependency file v1.0
-1468788295 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\main.cpp
-	<iostream>
+1468802840 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\main.cpp
 	"Person.h"
+	"Student.h"
+	"teacher.h"
+	<stddef.h>
+	<iostream>
+	<string>
 
-1468788156 c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\person.h
+1468801791 c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\person.h
 	<string>
 	<stddef.h>
 
-1468788351 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\person.cpp
+1468800803 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\person.cpp
 	"Person.h"
 	<iostream>
+	<stddef.h>
+
+1468801981 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\student.cpp
+	"Person.h"
+	"Student.h"
+	<stddef.h>
+	<iostream>
+	<string>
+
+1468801833 c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\student.h
+	"Person.h"
+	<string>
+
+1468803679 source:c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\teacher.cpp
+	"Person.h"
+	"teacher.h"
+	<stddef.h>
+	<iostream>
+	<string>
+
+1468802276 c:\users\hp\documents\github\softuni-summer-c-2016\03.hw\teacher.h
+	"Person.h"
+	<stddef.h>
+	<iostream>
+	<string>
 

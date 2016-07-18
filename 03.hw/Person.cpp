@@ -1,5 +1,7 @@
 #include "Person.h"
 #include <iostream>
+#include <stddef.h>
+
 using namespace std;
 
 Person::Person(int tmpId, string tmpName){
@@ -8,13 +10,13 @@ Person::Person(int tmpId, string tmpName){
 }
 
 Person::Person(const Person& tmp){
-    this->id = tmp.getId();
-    this->name = tmp.getName();
+    id = tmp.id;
+    name = tmp.name;
 }
 
 Person& Person::operator = (const Person& tmp){
-    this->id = tmp.getId();
-    this->name = tmp.getName();
+    id = tmp.id;
+    name = tmp.name;
 }
 
 

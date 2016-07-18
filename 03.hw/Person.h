@@ -7,7 +7,7 @@ using namespace std;
 
 class Person{
 public:
-    Person(int = 0, string = NULL);
+    Person(int = 0, string = "");
     Person(const Person&);
     Person& operator = (const Person&);
     ~Person();
@@ -18,7 +18,7 @@ public:
     void setId(int);
     void setName(string);
 
-    void print();
+    virtual void print();
 private:
     int id;
     string name;
